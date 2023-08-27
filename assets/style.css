@@ -352,6 +352,12 @@ position: relative;
     width: 60px;
 
 }
+.dpt-menu > ul > li > a{
+    font-size: var(--font-samll);
+    height: 46px;
+    align-items: center;
+    
+}
 .header-main.right{
     flex:1;
 }
@@ -486,6 +492,21 @@ form.search button:hover{
     .header-main .right{
         max-width: 600px;
         margin-left: auto;
+    }
+    /*Departments menu */
+    .dpt-menu{
+        position: absolute;
+        top: var(--percent100);
+        width: 380px;
+        background-color: var(--white-color);
+        border: 1px solid var(--border-color);
+        border-top:0;
+        border-bottom: 0;
+    }
+    .dpt-menu > ul > li > a{
+        font-weight: var(--fw5);
+        padding: 0 1.5em;
+        border-bottom: 1px solid var(--border-color);
     }
 }
 
